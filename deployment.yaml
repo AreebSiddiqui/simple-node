@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: simple-node
-          image: <ECR_REPOSITORY>
+          image: areebsiddiqui/simple-node
           ports:
             - containerPort: 80
